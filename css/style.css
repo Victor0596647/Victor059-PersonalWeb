@@ -1,0 +1,39 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuBar{
+    display:flex;
+    height:50px;
+    position:static;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    color:white;
+    transition: all 0.4s;
+}
+
+.menuBar:hover{
+    background-color: rgba(0, 0, 0);
+}
+
+.menuTitle{
+    padding:20px;
+}
+
+.menuButtons{
+    display:flex;
+    justify-content: flex-start;
+    padding:16px auto;
+    transition: all 0.4s;
+}
+
+.menuButtons div{
+    padding:16px 10px;
+}
+
+.menuButtons div:hover{
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
