@@ -46,58 +46,39 @@ body {
     cursor:pointer;
 }
 
+.menuButtons div:active{
+    background-color: rgb(255, 0, 64);
+}
+
 .skills {
     background-color: rgba(0, 0, 0, 0.815);
     border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
 }
 
-.skills h2{
-    padding: 10px;
-}
-
-.languages {
-    
+.languages{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
 }
 
 .languages div{
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    padding: 30px;
     transition: all 0.4s;
+    padding:10px 10px 10px 10px;
 }
 
 .languages div p{
-    text-align: center;
     font-weight: 700;
     font-size: 25px;
 }
 
-.languages div:hover{
-    width:120px;
+.skills languages div img{
+    width:150px;
+    height: 150px;
 }
 
-#cpp {
-    width:100%;
-    height:100%;
-}
-
-#html {
-    width:100%;
-    height:100%;
-}
-
-#css {
-    width:100%;
-    height:100%;
-}
-
-#python {
-    width:100%;
-    height:100%;
-}
-
-#javascript {
-    width:100%;
-    height:100%;
+#icon {
+    width: 70px;
+    height: 70px;
 }
