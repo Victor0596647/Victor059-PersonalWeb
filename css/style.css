@@ -1,16 +1,18 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 0, 64);
+    color:white;
 }
 
 .menuBar{
     display:flex;
     height:50px;
-    position:static;
     justify-content: flex-start;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.699);
     color:white;
     transition: all 0.4s;
+    border-radius: 10px;
 }
 
 .menuBar:hover{
@@ -29,11 +31,73 @@ body {
 }
 
 .menuButtons div{
+    color:white;
     padding:16px 10px;
+    transition: all 0.2s;
+}
+
+.menuButtons a:link{
+    text-decoration: none;
 }
 
 .menuButtons div:hover{
     background-color: white;
     color: black;
     cursor:pointer;
+}
+
+.skills {
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+.skills h2{
+    padding: 10px;
+}
+
+.languages {
+    
+}
+
+.languages div{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 30px;
+    transition: all 0.4s;
+}
+
+.languages div p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.languages div:hover{
+    width:120px;
+}
+
+#cpp {
+    width:100%;
+    height:100%;
+}
+
+#html {
+    width:100%;
+    height:100%;
+}
+
+#css {
+    width:100%;
+    height:100%;
+}
+
+#python {
+    width:100%;
+    height:100%;
+}
+
+#javascript {
+    width:100%;
+    height:100%;
 }

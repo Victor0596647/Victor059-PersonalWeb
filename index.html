@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = 'en'>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Victor0596647's Wesbite</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -8,15 +9,27 @@
         <div class="menuBar">
             <div class="menuTitle">Victor0596647's Portfolio (WIP)</div>
             <div class="menuButtons">
-                <div>Home</div>
+                <a href="#home"><div>Home</div></a>
                 <div>About Me</div>
                 <div>Projects</div>
                 <div>Skills</div>
             </div>
         </div>
-        <h1>Welcome to my Portfolio!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Fermentum posuere 
-            urna nec tincidunt.</p>
+        <div class="home" id="home">
+            <h1>Welcome to my Portfolio!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Fermentum posuere 
+                urna nec tincidunt.</p>
+        </div>
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="languages">
+                <div><img src="img/cpp.png" id="cpp" alt="cplusplus"><p>C++<p></p></div>
+                <div><img src="img/html.svg" id="html" alt="html"><p>HTML<p></p></div>
+                <div><img src="img/css.svg" id="css" alt="css"><p>CSS<p></p></div>
+                <div><img src="img/python.svg" id="python" alt="py"><p>Python<p></p></div>
+                <div><img src="img/js.svg" id="javascript" alt="js"><p>Javascript</p></div>
+            </div>
+        </div>
     </body>
 </html>
