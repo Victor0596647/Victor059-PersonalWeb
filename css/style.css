@@ -10,18 +10,17 @@ body {
 
 .menuBar{
     display: flex;
+    flex-direction: row;
     background-color: rgba(0, 0, 0, 0.699);
     color:white;
+    text-align: center;
+    justify-content: center;
     transition: all 0.4s;
     border-radius: 10px;
 }
 
 .menuBar:hover{
     background-color: rgba(0, 0, 0);
-}
-
-.menuTitle{
-    padding:20px;
 }
 
 .menuButtons{
@@ -34,8 +33,10 @@ body {
 .menuButtons div{
     color:white;
     padding:16px 10px;
+    margin: 10px;
     border-radius: 10px;
     transition: all 0.2s;
+    font-size: 22px;
 }
 
 .menuButtons a:link{
@@ -57,6 +58,48 @@ body {
     text-align: center;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-media div {
+    display: flex;
+    float: none;
+    color:white;
+    background-color: rgb(165, 0, 49);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.social-media a:link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-media div:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 76);
+}
+
+.social-media div p {
+    padding-left: 5px;
+}
+
+#social-icon {
+    filter: invert(100%) sepia(5%) saturate(4%) hue-rotate(338deg) brightness(100%) contrast(100%);
+    width: 30px;
+    height: 30px;
+}
+
 .skills {
     background-color: rgba(0, 0, 0, 0.815);
     margin:auto;
@@ -68,26 +111,26 @@ body {
     font-size: 24px;
 }
 
-.languages{
+.skills section{
+    display:flex;
+    flex-direction: row;
+}
+
+.skilist{
     display: flex;
     flex:auto;
     flex-direction:row;
     justify-content: center;
 }
 
-.languages div{
+.skilist div{
     transition: all 0.4s;
     padding:10px 10px 10px 10px;
 }
 
-.languages div p{
+.skilist div p{
     font-weight: 700;
     font-size: 25px;
-}
-
-.skills languages div img{
-    width:150px;
-    height: 150px;
 }
 
 #icon {
@@ -96,11 +139,11 @@ body {
 }
 
 footer {
-    width: 100%;
+    margin-top:10px;
+    display: flex;
+    width: auto;
     height: 100px;
+    justify-content: center;
     text-align: center;
-    position:fixed;
-    left: 0;
-    bottom: 0;
     background-color: black;
 }
