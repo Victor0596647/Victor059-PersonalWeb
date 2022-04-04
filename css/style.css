@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 0, 64);
+    font-family: 'Barlow', sans-serif;
     color:white;
+    background-image: url("/img/sreehari-devadas-LlLDHWcAXKI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menuBar{
-    display:flex;
-    height:50px;
-    justify-content: flex-start;
-    align-items: center;
+    display: flex;
     background-color: rgba(0, 0, 0, 0.699);
     color:white;
     transition: all 0.4s;
@@ -26,18 +27,20 @@ body {
 .menuButtons{
     display:flex;
     justify-content: flex-start;
-    padding:16px auto;
+    padding:auto;
     transition: all 0.4s;
 }
 
 .menuButtons div{
     color:white;
     padding:16px 10px;
+    border-radius: 10px;
     transition: all 0.2s;
 }
 
 .menuButtons a:link{
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .menuButtons div:hover{
@@ -48,17 +51,26 @@ body {
 
 .menuButtons div:active{
     background-color: rgb(255, 0, 64);
+    color:white;
+}
+.home {
+    text-align: center;
 }
 
 .skills {
     background-color: rgba(0, 0, 0, 0.815);
+    margin:auto;
     border-radius: 10px;
     text-align: center;
+    padding-top: 3px;
+    width:-moz-fit-content;
+    width:fit-content;
     font-size: 24px;
 }
 
 .languages{
     display: flex;
+    flex:auto;
     flex-direction:row;
     justify-content: center;
 }
@@ -81,4 +93,14 @@ body {
 #icon {
     width: 70px;
     height: 70px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
 }
