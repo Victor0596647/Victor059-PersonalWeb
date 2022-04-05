@@ -59,25 +59,28 @@ body {
 }
 
 .social-media {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
     justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
 }
 
 .social-media div {
     display: flex;
-    float: none;
     color:white;
     background-color: rgb(165, 0, 49);
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
     align-items: center;
-    width: -moz-fit-content;
-    width: fit-content;
+    justify-content: center;
     cursor: pointer;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+}
+
+.social media div, .social-media a {
+    width:-moz-fit-content;
+    width:fit-content;
 }
 
 .social-media a:link{
@@ -117,9 +120,9 @@ body {
 }
 
 .skilist{
-    display: flex;
-    flex:auto;
-    flex-direction:row;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    align-items: center;
     justify-content: center;
 }
 
