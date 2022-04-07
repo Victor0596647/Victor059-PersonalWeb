@@ -1,0 +1,12 @@
+.aboutme {
+    background-color: rgba(0, 0, 0, 0.815);
+    margin:2% auto 2% auto;
+    border-radius: 10px;
+    text-align: center;
+    width:700px;
+}
+
+.aboutme p {
+    text-align: start;
+    padding:3px 20px 20px 20px;
+}

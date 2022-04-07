@@ -1,0 +1,94 @@
+.home {
+    text-align: center;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    justify-content: center;
+    margin:2% 0px 2% 0px;
+}
+
+.social-media div {
+    display: flex;
+    color:white;
+    background-color: rgb(165, 0, 49);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.social media div, .social-media a {
+    width:-moz-fit-content;
+    width:fit-content;
+}
+
+.social-media a:link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-media div:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 76);
+}
+
+.social-media div p {
+    padding-left: 5px;
+}
+
+#social-icon {
+    filter: invert(100%) sepia(5%) saturate(4%) hue-rotate(338deg) brightness(100%) contrast(100%);
+    width: 30px;
+    height: 30px;
+}
+
+.skills {
+    background-color: rgba(0, 0, 0, 0.815);
+    margin:auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    width:-moz-fit-content;
+    width:fit-content;
+    font-size: 24px;
+}
+
+.skills section{
+    display:flex;
+    flex-direction: row;
+}
+
+.skilist{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    align-items: center;
+    justify-content: center;
+}
+
+.skilist div{
+    transition: all 0.4s;
+    padding:10px 10px 10px 10px;
+}
+
+.skilist img {
+    transition: all 0.4s;
+}
+
+.skilist img:hover {
+    transform: scale(1.3);
+}
+
+.skilist div p{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#icon {
+    width: 70px;
+    height: 70px;
+}
