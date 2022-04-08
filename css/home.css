@@ -63,9 +63,16 @@
     flex-direction: row;
 }
 
-.skilist{
+section .skilist{
     display: grid;
     grid-template-columns: repeat(3,150px);
+    align-items: center;
+    justify-content: center;
+}
+
+.skilist{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
     align-items: center;
     justify-content: center;
 }

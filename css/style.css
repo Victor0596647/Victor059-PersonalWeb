@@ -4,8 +4,46 @@ body {
     font-family: 'Barlow', sans-serif;
     color:white;
     background: #c31432;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6f0000, #200122);
-    background: linear-gradient(to right, #6f0000, #200122);
+    background: -webkit-linear-gradient(-120deg, #200122,#6f0000, #ff0037, #8400ff, #23d5ab);
+    background: linear-gradient(-120deg, #200122,#6f0000, #ff0037, #8400ff, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	10% {
+		background-position: 15% 50%;
+	}
+	20% {
+		background-position: 25% 50%;
+	}
+    30% {
+        background-position: 50% 50%;
+    }
+    40% {
+        background-position: 75% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+    60% {
+        background-position: 75% 50%;
+    }
+    70% {
+        background-position: 50% 50%;
+    }
+    80% {
+        background-position: 25% 50%;
+    }
+    90% {
+        background-position: 15% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Scrollbar */
@@ -14,7 +52,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #2d0130;
+    background: #30010b;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -75,7 +113,7 @@ body {
 }
 
 footer {
-    margin: 2% -0.6% -0.6% -0.6%;
+    margin: 2% -0.5% -0.5% -0.5%;
     display: flex;
     width: auto;
     height: 100px;
