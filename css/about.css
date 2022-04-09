@@ -3,7 +3,7 @@
     margin:2% auto 2% auto;
     border-radius: 10px;
     text-align: center;
-    width:700px;
+    max-width:700px;
 }
 
 .aboutme p {

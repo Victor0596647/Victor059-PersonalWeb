@@ -2,13 +2,6 @@
     text-align: center;
 }
 
-.social-media {
-    display: grid;
-    grid-template-columns: repeat(3,150px);
-    justify-content: center;
-    margin:2% 0px 2% 0px;
-}
-
 .social-media div {
     display: flex;
     color:white;
@@ -20,6 +13,8 @@
     cursor: pointer;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    width:-moz-fit-content;
+    width:fit-content;
 }
 
 .social media div, .social-media a {
@@ -58,23 +53,79 @@
     font-size: 24px;
 }
 
-.skills section{
+.social-media {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:2% 0px 2% 0px;
 }
 
-section .skilist{
-    display: grid;
-    grid-template-columns: repeat(3,150px);
-    align-items: center;
-    justify-content: center;
-}
+@media screen and (min-width:350px){
+    section .skilist{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skilist{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skills section{
+        display:block;
+    }
 
-.skilist{
-    display: grid;
-    grid-template-columns: repeat(4,150px);
-    align-items: center;
-    justify-content: center;
+}
+@media screen and (min-width:646px){
+    section .skilist{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skilist{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skills section{
+        display:flex;
+        flex-direction: row;
+    }
+    .social-media {
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        justify-content: center;
+        margin:2% 0px 2% 0px;
+    }
+}
+@media screen and (min-width:1077px){
+    section .skilist{
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skilist{
+        display: grid;
+        grid-template-columns: repeat(4,150px);
+        align-items: center;
+        justify-content: center;
+    }
+    .skills section{
+        display:flex;
+        flex-direction: row;
+    }
+    .social-media {
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        justify-content: center;
+        margin:2% 0px 2% 0px;
+    }
 }
 
 .skilist div{
