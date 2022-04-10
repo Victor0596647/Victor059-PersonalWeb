@@ -61,7 +61,15 @@
     margin:2% 0px 2% 0px;
 }
 
-@media screen and (max-width:646px){
+@media screen and (max-width:320px){
+    .skills section{
+        display:block;
+    }
+    .social-media div {
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:320px){
     section .skilist{
         display: grid;
         grid-template-columns: repeat(2,150px);
