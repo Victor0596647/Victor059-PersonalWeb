@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 html {
-    height:100%;
+    min-height:100%;
 }
 
 body {
@@ -56,17 +56,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #30010b;
+    background: #751228;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.712);
     border-radius: 5px;
     transition: all 1s;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0);
 }
 
 @media screen and (min-width:646px){
