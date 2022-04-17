@@ -1,0 +1,24 @@
+.project {
+    background-color: rgba(0, 0, 0, 0.815);
+    margin:auto;
+    border-radius: 10px;
+    text-align: center;
+    max-width:700px;
+    padding-top: 5px;
+}
+
+.project img {
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    transition: all 0.4s;
+}
+
+.project img:hover{
+    transform: scale(1.08);
+}
+
+.project p {
+    text-align: center;
+    padding:3px 20px 20px 20px;
+}
