@@ -5,7 +5,7 @@ function init(){
     addProject("Php Account System",
     "https://github.com/Victor0596647/account-system-website/",
     "projects/img/php-account-system.png",
-    "I made a php application where you create an account, login, and remove the account. This isn't really interesting since it was for practice.");
+    "I made a php application where you create an account, login, and remove the account. This project was made to test some of my skills.");
     addProject("Catch The Block",
     "https://github.com/Victor0596647/CatchTheBlock",
     "projects/img/catchtheblock.png",
